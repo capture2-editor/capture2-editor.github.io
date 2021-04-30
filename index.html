@@ -199,7 +199,7 @@
                 </li>
             </ul>
 
-            <form class="form-inline" action="/action_page.php">
+            <form class="form-inline" action="#">
                 <input class="form-control mr-sm-2" type="text" placeholder="Help">
                 <button class="btn btn-light" type="submit">Search</button>
             </form>
@@ -215,444 +215,448 @@
         <div class="row">
             <!--Audio Section-->
             <div class="col-3">
-                <div class="sticky-top" style="background-color:rgb(169, 169, 173);;">
-                    <h3> Imported Media </h3>
-                </div>
+                <h3 class="heading1"> Imported Media </h3>
+                <div class="tab_scroll">
+                    <div class="accordion shadow " id="accordion">
+                        <div class="card">
+                            <div class="card-header py-0" id="headingVid">
+                                <h5 class="card-title mb-0 font-weight-bold"><a href="#" data-toggle="collapse"
+                                        data-target="#collapseVid" aria-expanded="false" aria-controls="collapseVid"
+                                        class="d-block position-relative text-dark text-uppercase collapsible-link py-2">
+                                        Videos
+                                    </a>
+                                </h5>
+                            </div>
 
-                <div class="accordion shadow " id="accordion">
-                    <div class="card">
-                        <div class="card-header py-0" id="headingVid">
-                            <h5 class="card-title mb-0 font-weight-bold"><a href="#" data-toggle="collapse"
-                                    data-target="#collapseVid" aria-expanded="false" aria-controls="collapseVid"
-                                    class="d-block position-relative text-dark text-uppercase collapsible-link py-2">
-                                    Videos
-                                </a>
-                            </h5>
-                        </div>
+                            <div id="collapseVid" class="collapse" aria-labelledby="headingVid"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div>
+                                        <a>Videos</a>
+                                    </div>
+                                    <div class="cover-container ">
+                                        <div class="vidrow">
 
-                        <div id="collapseVid" class="collapse" aria-labelledby="headingVid" data-parent="#accordion">
-                            <div class="card-body">
-                                <div>
-                                    <a>Videos</a>
-                                </div>
-                                <div class="cover-container ">
-                                    <div class="vidrow">
-                                        
-                                        <figure class="fig">
-                                            <img onclick="video() " class="imgvid " src="media/balletvid.png"
-                                                title="Ballet.vid" width="80 " height="80 ">
-                                            <figcaption class="caption3">Ballet.vid</figcaption>
-                                        </figure>
-                                        
-                                        <figure class="fig">
-                                            <img onclick="video() " class="imgvid " src="media/candlevid.png"
-                                                title="Birthday.mp4" width=" 100 " height="90 ">
-                                            <figcaption class="caption9">Birthday.mp4</figcaption>
-                                        </figure>
-                                        
-                                        <figure class="fig">
-                                            <img onclick="video() " class="imgvid" src="media/cyclevid.png" width="120"
-                                                title="Cycle.mov" height="110">
-                                            <figcaption class="caption2">Cycle.mov</figcaption>
-                                        </figure>
-                                        
-                                        <figure class="fig">
-                                            <img onclick="video() " class="imgvid " src="media/goldenvid.png"
-                                                title="Dog.mp4" width="80 " height="80 ">
-                                            <figcaption class="caption1">Dog.mp4</figcaption>
-                                        </figure>
-                                        
-                                        <figure class="fig">
-                                            <img onclick="video() " class="imgvid " src="media/exercisevid.png"
-                                                title="Exercise.vid" width="100 " height="80 ">
-                                            <figcaption class="caption7">Exercise.vid</figcaption>
-                                        </figure>
-                                        
-                                        <figure class="fig">
-                                            <img onclick="video() " class="imgvid " src="media/guitarvid.png"
-                                                title="Guitar.mp4" width="90 " height="80 ">
-                                            <figcaption class="caption6">Guitar.mp4</figcaption>
-                                        </figure>
-                                        
-                                        <figure class="fig">
-                                            <img onclick="video() " class="imgvid " src="media/skatevid.png"
-                                                title="Skate.mov" width="110 " height="90">
-                                            <figcaption class="caption8">Skate.mov</figcaption>
-                                        </figure>
-                                        
-                                        <figure class="fig">
-                                            <img onclick="video() " class="imgvid " src="media/stirvid.png" width="70"
-                                                title="Stirfry.mp4" height="110 ">
-                                            <figcaption class="caption4">Stirfry.mp4</figcaption>
-                                        </figure>
-                                        
-                                        <figure class="fig">
-                                            <img onclick="video() " class="imgvid " src="media/wavevid.png" width="80 "
-                                                title="Waves.mov" height="80 ">
-                                            <figcaption class="caption5">Waves.mov</figcaption>
-                                        </figure>
-                                        
+                                            <figure class="fig">
+                                                <img onclick="video() " class="imgvid " src="media/balletvid.png"
+                                                    title="Ballet.vid" width="80 " height="80 ">
+                                                <figcaption class="caption3">Ballet.vid</figcaption>
+                                            </figure>
+
+                                            <figure class="fig">
+                                                <img onclick="video() " class="imgvid " src="media/candlevid.png"
+                                                    title="Birthday.mp4" width=" 100 " height="90 ">
+                                                <figcaption class="caption9">Birthday.mp4</figcaption>
+                                            </figure>
+
+                                            <figure class="fig">
+                                                <img onclick="video() " class="imgvid" src="media/cyclevid.png"
+                                                    width="120" title="Cycle.mov" height="110">
+                                                <figcaption class="caption2">Cycle.mov</figcaption>
+                                            </figure>
+
+                                            <figure class="fig">
+                                                <img onclick="video() " class="imgvid " src="media/goldenvid.png"
+                                                    title="Dog.mp4" width="80 " height="80 ">
+                                                <figcaption class="caption1">Dog.mp4</figcaption>
+                                            </figure>
+
+                                            <figure class="fig">
+                                                <img onclick="video() " class="imgvid " src="media/exercisevid.png"
+                                                    title="Exercise.vid" width="100 " height="80 ">
+                                                <figcaption class="caption7">Exercise.vid</figcaption>
+                                            </figure>
+
+                                            <figure class="fig">
+                                                <img onclick="video() " class="imgvid " src="media/guitarvid.png"
+                                                    title="Guitar.mp4" width="90 " height="80 ">
+                                                <figcaption class="caption6">Guitar.mp4</figcaption>
+                                            </figure>
+
+                                            <figure class="fig">
+                                                <img onclick="video() " class="imgvid " src="media/skatevid.png"
+                                                    title="Skate.mov" width="110 " height="90">
+                                                <figcaption class="caption8">Skate.mov</figcaption>
+                                            </figure>
+
+                                            <figure class="fig">
+                                                <img onclick="video() " class="imgvid " src="media/stirvid.png"
+                                                    width="70" title="Stirfry.mp4" height="110 ">
+                                                <figcaption class="caption4">Stirfry.mp4</figcaption>
+                                            </figure>
+
+                                            <figure class="fig">
+                                                <img onclick="video() " class="imgvid " src="media/wavevid.png"
+                                                    width="80 " title="Waves.mov" height="80 ">
+                                                <figcaption class="caption5">Waves.mov</figcaption>
+                                            </figure>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header py-0" id="headingImg">
-                            <h5 class="card-title mb-0 font-weight-bold"><a href="#" data-toggle="collapse"
-                                    data-target="#collapseImg" aria-expanded="false" aria-controls="collapseImg"
-                                    class="d-block position-relative text-dark text-uppercase collapsible-link py-2">
-                                    Images
-                                </a>
-                            </h5>
-                        </div>
-                        <div id="collapseImg" class="collapse" aria-labelledby="headingImg" data-parent="#accordion">
-                            <div class="card-body">
-                                <div>
-                                    <a>Images</a>
-                                </div>
-                                <div class="cover-container">
-                                    
-                                    <img onclick="component()" src="media/image3.jpg" width="80" height="80"
-                                        title="Beach_Sunset.png">
-                                    <img onclick="component()" src="media/image8.jpg" width="80" height="80"
-                                        title="Beach_Sunset2.png">
-                                    <img onclick="component()" src="media/image.jpg" width="80" height="80"
-                                        title="City.png">
-                                    <img onclick="component()" src="media/image2.jpg" width="80" height="80"
-                                        title="Coffee.png">
-                                    <img onclick="component()" src="media/image6.jpg" width="80" height="80"
-                                        title="Cute_Dog.png">
-                                    <img onclick="component()" src="media/image4.jpg" width="80" height="80"
-                                        title="Dinner.png">
-                                    <img onclick="component()" src="media/image5.jpg" width="80" height="80"
-                                        title="Running_Dog.png">
-                                    <img onclick="component()" src="media/image9.jpg" width="80" height="80"
-                                        title="Shade.png">
-                                    <img onclick="component()" src="media/image7.jpg" width="80" height="80"
-                                        title="Street.png">
-                                    <img onclick="component()" src="media/image10.jpg" width="80" height="80"
-                                        title="Walkway.png">
-                                    
-                                    <div class="labelColumn">
-                                        <div class="mediaLabel">Beach_Sunset.png</div>
-                                        <div class="mediaLabel">Beach_Sunset2.png</div>
-                                        <div class="mediaLabel">City.png</div>
-                                        <div class="mediaLabel">Coffee.png</div>
-                                        <div class="mediaLabel">Cute_Dog.png</div>
-                                        <div class="mediaLabel">Dinner.png</div>
-                                        <div class="mediaLabel">Running_Dog.png</div>
-                                        <div class="mediaLabel">Shade.png</div>
-                                        <div class="mediaLabel">Street.png</div>
-                                        <div class="mediaLabel">Walkway.png</div>
-                                    </div>
-                                    
-                                </div>
+                        <div class="card">
+                            <div class="card-header py-0" id="headingImg">
+                                <h5 class="card-title mb-0 font-weight-bold"><a href="#" data-toggle="collapse"
+                                        data-target="#collapseImg" aria-expanded="false" aria-controls="collapseImg"
+                                        class="d-block position-relative text-dark text-uppercase collapsible-link py-2">
+                                        Images
+                                    </a>
+                                </h5>
                             </div>
-
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header py-0" id="headingAud">
-                            <h5 class="card-title mb-0 font-weight-bold"><a href="#" data-toggle="collapse"
-                                    data-target="#collapseAud" aria-expanded="false" aria-controls="collapseAud"
-                                    class="d-block position-relative text-dark text-uppercase collapsible-link py-2">
-                                    Audio
-                                </a>
-                            </h5>
-                        </div>
-                        <div id="collapseAud" class="collapse" aria-labelledby="headingAud" data-parent="#accordion">
-                            <div class="card-body">
-                                <div>
-                                    <a>Audio</a>
-                                </div>
-                                <div class="cover-container ">
-                                    
-                                    <img onclick="audio()" src="media/folkloregarden.jpg" width="80" height="80"
-                                        title="betty">
-                                    <img onclick="audio()" src="media/boku.jpg" width="80" height="80" title="Boku">
-                                    <img onclick="audio()" src="media/boyz2men.jpg" width="80" height="80"
-                                        title="Boys2Men_twenty">
-                                    <img onclick="audio()" src="media/mariah.jpg" width="80" height="80"
-                                        title="Daydream">
-                                    <img onclick="audio()" src="media/evermore.jpg" width="80" height="80"
-                                        title="Evermore">
-                                    <img onclick="audio()" src="media/fearless.jpg" width="80" height="80"
-                                        title="Fearless">
-                                    <img onclick="audio()" src="media/folklore.jpg" width="80" height="80"
-                                        title="Folkore">
-                                    <img onclick="audio()" src="media/frozen22.jpg" width="80" height="80"
-                                        title="Frozen2_Soundtrack">
-                                    <img onclick="audio()" src="media/redswan.jpg" width="80" height="80"
-                                        title="Yoshiki_RedSwan">
-                                    
-                                    <div class="labelColumn2">
-                                        <div class="mediaLabel">betty.mp3</div>
-                                        <div class="mediaLabel">Boku.mp3</div>
-                                        <div class="mediaLabel">Boys2Men_twenty.mp3</div>
-                                        <div class="mediaLabel">Daydream.mp3</div>
-                                        <div class="mediaLabel">Evermore.mp3</div>
-                                        <div class="mediaLabel">Fearless.mp3</div>
-                                        <div class="mediaLabel">Folklore.mp3</div>
-                                        <div class="mediaLabel">Frozen2_Soundtrack.mp3</div>
-                                        <div class="mediaLabel">Yoshiki_RedSwan.mp3</div>
+                            <div id="collapseImg" class="collapse" aria-labelledby="headingImg"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div>
+                                        <a>Images</a>
                                     </div>
-                                    
+                                    <div class="cover-container">
+
+                                        <img onclick="component()" src="media/image3.jpg" width="80" height="80"
+                                            title="Beach_Sunset.png">
+                                        <img onclick="component()" src="media/image8.jpg" width="80" height="80"
+                                            title="Beach_Sunset2.png">
+                                        <img onclick="component()" src="media/image.jpg" width="80" height="80"
+                                            title="City.png">
+                                        <img onclick="component()" src="media/image2.jpg" width="80" height="80"
+                                            title="Coffee.png">
+                                        <img onclick="component()" src="media/image6.jpg" width="80" height="80"
+                                            title="Cute_Dog.png">
+                                        <img onclick="component()" src="media/image4.jpg" width="80" height="80"
+                                            title="Dinner.png">
+                                        <img onclick="component()" src="media/image5.jpg" width="80" height="80"
+                                            title="Running_Dog.png">
+                                        <img onclick="component()" src="media/image9.jpg" width="80" height="80"
+                                            title="Shade.png">
+                                        <img onclick="component()" src="media/image7.jpg" width="80" height="80"
+                                            title="Street.png">
+                                        <img onclick="component()" src="media/image10.jpg" width="80" height="80"
+                                            title="Walkway.png">
+
+                                        <div class="labelColumn">
+                                            <div class="mediaLabel">Beach_Sunset.png</div>
+                                            <div class="mediaLabel">Beach_Sunset2.png</div>
+                                            <div class="mediaLabel">City.png</div>
+                                            <div class="mediaLabel">Coffee.png</div>
+                                            <div class="mediaLabel">Cute_Dog.png</div>
+                                            <div class="mediaLabel">Dinner.png</div>
+                                            <div class="mediaLabel">Running_Dog.png</div>
+                                            <div class="mediaLabel">Shade.png</div>
+                                            <div class="mediaLabel">Street.png</div>
+                                            <div class="mediaLabel">Walkway.png</div>
+                                        </div>
+
+                                    </div>
                                 </div>
-                                </br>
+
                             </div>
                         </div>
-                    </div>
-                </div>
+                        <div class="card">
+                            <div class="card-header py-0" id="headingAud">
+                                <h5 class="card-title mb-0 font-weight-bold"><a href="#" data-toggle="collapse"
+                                        data-target="#collapseAud" aria-expanded="false" aria-controls="collapseAud"
+                                        class="d-block position-relative text-dark text-uppercase collapsible-link py-2">
+                                        Audio
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseAud" class="collapse" aria-labelledby="headingAud"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div>
+                                        <a>Audio</a>
+                                    </div>
+                                    <div class="cover-container ">
 
-                </br>
-                <div class="sticky-top" style="background-color:rgb(169, 169, 173);;">
+                                        <img onclick="audio()" src="media/folkloregarden.jpg" width="80" height="80"
+                                            title="betty">
+                                        <img onclick="audio()" src="media/boku.jpg" width="80" height="80" title="Boku">
+                                        <img onclick="audio()" src="media/boyz2men.jpg" width="80" height="80"
+                                            title="Boys2Men_twenty">
+                                        <img onclick="audio()" src="media/mariah.jpg" width="80" height="80"
+                                            title="Daydream">
+                                        <img onclick="audio()" src="media/evermore.jpg" width="80" height="80"
+                                            title="Evermore">
+                                        <img onclick="audio()" src="media/fearless.jpg" width="80" height="80"
+                                            title="Fearless">
+                                        <img onclick="audio()" src="media/folklore.jpg" width="80" height="80"
+                                            title="Folkore">
+                                        <img onclick="audio()" src="media/frozen22.jpg" width="80" height="80"
+                                            title="Frozen2_Soundtrack">
+                                        <img onclick="audio()" src="media/redswan.jpg" width="80" height="80"
+                                            title="Yoshiki_RedSwan">
+
+                                        <div class="labelColumn2">
+                                            <div class="mediaLabel">betty.mp3</div>
+                                            <div class="mediaLabel">Boku.mp3</div>
+                                            <div class="mediaLabel">Boys2Men_twenty.mp3</div>
+                                            <div class="mediaLabel">Daydream.mp3</div>
+                                            <div class="mediaLabel">Evermore.mp3</div>
+                                            <div class="mediaLabel">Fearless.mp3</div>
+                                            <div class="mediaLabel">Folklore.mp3</div>
+                                            <div class="mediaLabel">Frozen2_Soundtrack.mp3</div>
+                                            <div class="mediaLabel">Yoshiki_RedSwan.mp3</div>
+                                        </div>
+
+                                    </div>
+                                    </br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    </br>
+
                     <h3> Templates </h3>
-                </div>
+                    <div class="accordion shadow " id="accordion">
+                        <div class="card">
+                            <div class="card-header py-0" id="headingTemp">
+                                <h5 class="card-title mb-0 font-weight-bold"><a href="#" data-toggle="collapse"
+                                        data-target="#collapseTemp" aria-expanded="false" aria-controls="collapseTemp"
+                                        class="d-block position-relative text-dark text-uppercase collapsible-link py-2">
+                                        Templates
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseTemp" class="collapse" aria-labelledby="headingTemp"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <div>
+                                        <a>Mixed Collage</a>
+                                    </div>
+                                    <div class="cover-container ">
+                                        <img onclick="audio()" src="media/collage21.jpg" width="80" height="80"
+                                            title="Mixed Collage 1">
+                                        <img onclick="audio()" src="media/collage22.jpg" width="80" height="80"
+                                            title="Mixed Collage 2">
+                                        <img onclick="audio()" src="media/collage23.jpg" width="80" height="80"
+                                            title="Mixed Collage 3">
+                                        <img onclick="audio()" src="media/collage24.jpg" width="80" height="80"
+                                            title="Mixed Collage 4">
+                                        <img onclick="audio()" src="media/collage25.jpg" width="80" height="80"
+                                            title="Mixed Collage 5">
+                                        <img onclick="audio()" src="media/collage26.jpg" width="80" height="80"
+                                            title="Mixed Collage 6">
+                                        <img onclick="audio()" src="media/collage27.jpg" width="80" height="80"
+                                            title="Mixed Collage 7">
+                                        <img onclick="audio()" src="media/collage28.jpg" width="80" height="80"
+                                            title="Mixed Collage 8">
+                                        <div class="labelColumn2">
+                                            <div class="mediaLabel">Mixed Collage 1</div>
+                                            <div class="mediaLabel">Mixed Collage 2</div>
+                                            <div class="mediaLabel">Mixed Collage 3</div>
+                                            <div class="mediaLabel">Mixed Collage 4</div>
+                                            <div class="mediaLabel">Mixed Collage 5</div>
+                                            <div class="mediaLabel">Mixed Collage 6</div>
+                                            <div class="mediaLabel">Mixed Collage 7</div>
+                                            <div class="mediaLabel">Mixed Collage 8</div>
+                                        </div>
+                                    </div>
+                                    </br>
+                                    <div>
+                                        <a>Photo Collage</a>
+                                    </div>
+                                    <div class="cover-container ">
 
-                <div class="accordion shadow " id="accordion">
-                    <div class="card">
-                        <div class="card-header py-0" id="headingTemp">
-                            <h5 class="card-title mb-0 font-weight-bold"><a href="#" data-toggle="collapse"
-                                    data-target="#collapseTemp" aria-expanded="false" aria-controls="collapseTemp"
-                                    class="d-block position-relative text-dark text-uppercase collapsible-link py-2">
-                                    Templates
-                                </a>
-                            </h5>
-                        </div>
-                        <div id="collapseTemp" class="collapse" aria-labelledby="headingTemp" data-parent="#accordion">
-                            <div class="card-body">
-                                <div>
-                                    <a>Mixed Collage</a>
-                                </div>
-                                <div class="cover-container ">
-                                    <img onclick="audio()" src="media/collage21.jpg" width="80" height="80"
-                                        title="Mixed Collage 1">
-                                    <img onclick="audio()" src="media/collage22.jpg" width="80" height="80"
-                                        title="Mixed Collage 2">
-                                    <img onclick="audio()" src="media/collage23.jpg" width="80" height="80"
-                                        title="Mixed Collage 3">
-                                    <img onclick="audio()" src="media/collage24.jpg" width="80" height="80"
-                                        title="Mixed Collage 4">
-                                    <img onclick="audio()" src="media/collage25.jpg" width="80" height="80"
-                                        title="Mixed Collage 5">
-                                    <img onclick="audio()" src="media/collage26.jpg" width="80" height="80"
-                                        title="Mixed Collage 6">
-                                    <img onclick="audio()" src="media/collage27.jpg" width="80" height="80"
-                                        title="Mixed Collage 7">
-                                    <img onclick="audio()" src="media/collage28.jpg" width="80" height="80"
-                                        title="Mixed Collage 8">
-                                    <div class="labelColumn2">
-                                        <div class="mediaLabel">Mixed Collage 1</div>
-                                        <div class="mediaLabel">Mixed Collage 2</div>
-                                        <div class="mediaLabel">Mixed Collage 3</div>
-                                        <div class="mediaLabel">Mixed Collage 4</div>
-                                        <div class="mediaLabel">Mixed Collage 5</div>
-                                        <div class="mediaLabel">Mixed Collage 6</div>
-                                        <div class="mediaLabel">Mixed Collage 7</div>
-                                        <div class="mediaLabel">Mixed Collage 8</div>
+                                        <img onclick="audio()" src="media/collage6.jpg" width="80" height="80"
+                                            title="Arrangement">
+                                        <img onclick="audio()" src="media/collage8.jpg" width="80" height="80"
+                                            title="Circle_Filled">
+                                        <img onclick="audio()" src="media/collage5.jpg" width="80" height="80"
+                                            title="Circle_Not filled">
+                                        <img onclick="audio()" src="media/collage4.jpg" width="80" height="80"
+                                            title="Clock">
+                                        <img onclick="audio()" src="media/collage3.jpg" width="80" height="80"
+                                            title="Half-moon">
+                                        <img onclick="audio()" src="media/collage1.jpg" width="80" height="80"
+                                            title="Hanging">
+                                        <img onclick="audio()" src="media/collage2.jpg" width="80" height="80"
+                                            title="Heart">
+                                        <img onclick="audio()" src="media/collage7.jpg" width="80" height="80"
+                                            title="Person from pictures">
+
+                                        <div class="labelColumn2">
+                                            <div class="mediaLabel">Arrangement</div>
+                                            <div class="mediaLabel">Circle_Filled</div>
+                                            <div class="mediaLabel">Circle_Not filled</div>
+                                            <div class="mediaLabel">Clock</div>
+                                            <div class="mediaLabel">Half-moon</div>
+                                            <div class="mediaLabel">Hanging</div>
+                                            <div class="mediaLabel">Heart</div>
+                                            <div class="mediaLabel">Person from pictures</div>
+                                        </div>
+
                                     </div>
-                                </div>
-                                </br>
-                                <div>
-                                    <a>Photo Collage</a>
-                                </div>
-                                <div class="cover-container ">
-                                    
-                                    <img onclick="audio()" src="media/collage6.jpg" width="80" height="80"
-                                        title="Arrangement">
-                                    <img onclick="audio()" src="media/collage8.jpg" width="80" height="80"
-                                        title="Circle_Filled">
-                                    <img onclick="audio()" src="media/collage5.jpg" width="80" height="80"
-                                        title="Circle_Not filled">
-                                    <img onclick="audio()" src="media/collage4.jpg" width="80" height="80"
-                                        title="Clock">
-                                    <img onclick="audio()" src="media/collage3.jpg" width="80" height="80"
-                                        title="Half-moon">
-                                    <img onclick="audio()" src="media/collage1.jpg" width="80" height="80"
-                                        title="Hanging">
-                                    <img onclick="audio()" src="media/collage2.jpg" width="80" height="80"
-                                        title="Heart">
-                                    <img onclick="audio()" src="media/collage7.jpg" width="80" height="80"
-                                        title="Person from pictures">
-                                    
-                                    <div class="labelColumn2">
-                                        <div class="mediaLabel">Arrangement</div>
-                                        <div class="mediaLabel">Circle_Filled</div>
-                                        <div class="mediaLabel">Circle_Not filled</div>
-                                        <div class="mediaLabel">Clock</div>
-                                        <div class="mediaLabel">Half-moon</div>
-                                        <div class="mediaLabel">Hanging</div>
-                                        <div class="mediaLabel">Heart</div>
-                                        <div class="mediaLabel">Person from pictures</div>
+                                    </br>
+                                    <div>
+                                        <a>Video Collage</a>
                                     </div>
-                                    
-                                </div>
-                                </br>
-                                <div>
-                                    <a>Video Collage</a>
-                                </div>
-                                <div class="cover-container ">
-                                    <img onclick="audio()" src="media/collage11.jpg" width="80" height="80"
-                                        title="Video Collage 1">
-                                    <img onclick="audio()" src="media/collage12.jpg" width="80" height="80"
-                                        title="Video Collage 2">
-                                    <img onclick="audio()" src="media/collage13.jpg" width="80" height="80"
-                                        title="Video Collage 3">
-                                    <img onclick="audio()" src="media/collage14.jpg" width="80" height="80"
-                                        title="Video Collage 4">
-                                    <img onclick="audio()" src="media/collage15.jpg" width="80" height="80"
-                                        title="Video Collage 5">
-                                    <img onclick="audio()" src="media/collage16.jpg" width="80" height="80"
-                                        title="Video Collage 6">
-                                    <img onclick="audio()" src="media/collage17.jpg" width="80" height="80"
-                                        title="Video Collage 7">
-                                    <img onclick="audio()" src="media/collage18.jpg" width="80" height="80"
-                                        title="Video Collage 8">
-                                    <div class="labelColumn2">
-                                        <div class="mediaLabel">Video Collage 1</div>
-                                        <div class="mediaLabel">Video Collage 2</div>
-                                        <div class="mediaLabel">Video Collage 3</div>
-                                        <div class="mediaLabel">Video Collage 4</div>
-                                        <div class="mediaLabel">Video Collage 5</div>
-                                        <div class="mediaLabel">Video Collage 6</div>
-                                        <div class="mediaLabel">Video Collage 7</div>
-                                        <div class="mediaLabel">Video Collage 8</div>
+                                    <div class="cover-container ">
+                                        <img onclick="audio()" src="media/collage11.jpg" width="80" height="80"
+                                            title="Video Collage 1">
+                                        <img onclick="audio()" src="media/collage12.jpg" width="80" height="80"
+                                            title="Video Collage 2">
+                                        <img onclick="audio()" src="media/collage13.jpg" width="80" height="80"
+                                            title="Video Collage 3">
+                                        <img onclick="audio()" src="media/collage14.jpg" width="80" height="80"
+                                            title="Video Collage 4">
+                                        <img onclick="audio()" src="media/collage15.jpg" width="80" height="80"
+                                            title="Video Collage 5">
+                                        <img onclick="audio()" src="media/collage16.jpg" width="80" height="80"
+                                            title="Video Collage 6">
+                                        <img onclick="audio()" src="media/collage17.jpg" width="80" height="80"
+                                            title="Video Collage 7">
+                                        <img onclick="audio()" src="media/collage18.jpg" width="80" height="80"
+                                            title="Video Collage 8">
+                                        <div class="labelColumn2">
+                                            <div class="mediaLabel">Video Collage 1</div>
+                                            <div class="mediaLabel">Video Collage 2</div>
+                                            <div class="mediaLabel">Video Collage 3</div>
+                                            <div class="mediaLabel">Video Collage 4</div>
+                                            <div class="mediaLabel">Video Collage 5</div>
+                                            <div class="mediaLabel">Video Collage 6</div>
+                                            <div class="mediaLabel">Video Collage 7</div>
+                                            <div class="mediaLabel">Video Collage 8</div>
+                                        </div>
                                     </div>
-                                </div>
-                                </br>
-                                <div>
-                                    <a>Newscast</a>
-                                </div>
-                                <div class="cover-container ">
-                                    <img onclick="audio()" src="media/newscast1.jpg" width="80" height="80"
-                                        title="Newscast 1">
-                                    <img onclick="audio()" src="media/newscast2.jpg" width="80" height="80"
-                                        title="Newscast 2">
-                                    <img onclick="audio()" src="media/newscast3.jpg" width="80" height="80"
-                                        title="Newscast 3">
-                                    <img onclick="audio()" src="media/newscast4.jpg" width="80" height="80"
-                                        title="Newscast 4">
-                                    <img onclick="audio()" src="media/newscast5.jpg" width="80" height="80"
-                                        title="Newscast 5">
-                                    <img onclick="audio()" src="media/newscast6.jpg" width="80" height="80"
-                                        title="Newscast 6">
-                                    <img onclick="audio()" src="media/newscast7.jpg" width="80" height="80"
-                                        title="Newscast 7">
-                                    <img onclick="audio()" src="media/newscast8.jpg" width="80" height="80"
-                                        title="Newscast 8">
-                                    <div class="labelColumn2">
-                                        <div class="mediaLabel">Newscast 1</div>
-                                        <div class="mediaLabel">Newscast 2</div>
-                                        <div class="mediaLabel">Newscast 3</div>
-                                        <div class="mediaLabel">Newscast 4</div>
-                                        <div class="mediaLabel">Newscast 5</div>
-                                        <div class="mediaLabel">Newscast 6</div>
-                                        <div class="mediaLabel">Newscast 7</div>
-                                        <div class="mediaLabel">Newscast 8</div>
+                                    </br>
+                                    <div>
+                                        <a>Newscast</a>
                                     </div>
-                                </div>
-                                </br>
-                                <div>
-                                    <a>Vacation</a>
-                                </div>
-                                <div class="cover-container ">
-                                    
-                                    <img onclick="audio()" src="media/vacation1.jpg" width="80" height="80"
-                                        title="Beach">
-                                    <img onclick="audio()" src="media/vacation6.jpg" width="80" height="80"
-                                        title="Cabin">
-                                    <img onclick="audio()" src="media/vacation4.jpg" width="80" height="80"
-                                        title="Camping">
-                                    <img onclick="audio()" src="media/vacation7.jpg" width="80" height="80"
-                                        title="City">
-                                    <img onclick="audio()" src="media/vacation2.jpg" width="80" height="80"
-                                        title="Cruise">
-                                    <img onclick="audio()" src="media/vacation8.jpg" width="80" height="80"
-                                        title="Monument">
-                                    <img onclick="audio()" src="media/vacation3.jpg" width="80" height="80"
-                                        title="Road Trip">
-                                    <img onclick="audio()" src="media/vacation5.jpg" width="80" height="80"
-                                        title="Resort">
-                                    
-                                    <div class="labelColumn2">
-                                        <div class="mediaLabel">Beach</div>
-                                        <div class="mediaLabel">Cabin</div>
-                                        <div class="mediaLabel">Camping</div>
-                                        <div class="mediaLabel">City</div>
-                                        <div class="mediaLabel">Cruise</div>
-                                        <div class="mediaLabel">Monument</div>
-                                        <div class="mediaLabel">Road Trip</div>
-                                        <div class="mediaLabel">Resort</div>
+                                    <div class="cover-container ">
+                                        <img onclick="audio()" src="media/newscast1.jpg" width="80" height="80"
+                                            title="Newscast 1">
+                                        <img onclick="audio()" src="media/newscast2.jpg" width="80" height="80"
+                                            title="Newscast 2">
+                                        <img onclick="audio()" src="media/newscast3.jpg" width="80" height="80"
+                                            title="Newscast 3">
+                                        <img onclick="audio()" src="media/newscast4.jpg" width="80" height="80"
+                                            title="Newscast 4">
+                                        <img onclick="audio()" src="media/newscast5.jpg" width="80" height="80"
+                                            title="Newscast 5">
+                                        <img onclick="audio()" src="media/newscast6.jpg" width="80" height="80"
+                                            title="Newscast 6">
+                                        <img onclick="audio()" src="media/newscast7.jpg" width="80" height="80"
+                                            title="Newscast 7">
+                                        <img onclick="audio()" src="media/newscast8.jpg" width="80" height="80"
+                                            title="Newscast 8">
+                                        <div class="labelColumn2">
+                                            <div class="mediaLabel">Newscast 1</div>
+                                            <div class="mediaLabel">Newscast 2</div>
+                                            <div class="mediaLabel">Newscast 3</div>
+                                            <div class="mediaLabel">Newscast 4</div>
+                                            <div class="mediaLabel">Newscast 5</div>
+                                            <div class="mediaLabel">Newscast 6</div>
+                                            <div class="mediaLabel">Newscast 7</div>
+                                            <div class="mediaLabel">Newscast 8</div>
+                                        </div>
                                     </div>
-                                    
-                                </div>
-                                </br>
-                                <div>
-                                    <a>Trailer</a>
-                                </div>
-                                <div class="cover-container ">
-                                    <img onclick="audio()" src="media/trailer1.jpg" width="80" height="80"
-                                        title="Trailer 1">
-                                    <img onclick="audio()" src="media/trailer2.jpg" width="80" height="80"
-                                        title="Trailer 2">
-                                    <img onclick="audio()" src="media/trailer3.jpg" width="80" height="80"
-                                        title="Trailer 3">
-                                    <img onclick="audio()" src="media/trailer4.jpg" width="80" height="80"
-                                        title="Trailer 4">
-                                    <img onclick="audio()" src="media/trailer5.jpg" width="80" height="80"
-                                        title="Trailer 5">
-                                    <img onclick="audio()" src="media/trailer6.jpg" width="80" height="80"
-                                        title="Trailer 6">
-                                    <img onclick="audio()" src="media/trailer7.jpg" width="80" height="80"
-                                        title="Trailer 7">
-                                    <img onclick="audio()" src="media/trailer8.jpg" width="80" height="80"
-                                        title="Trailer 8">
-                                    <img onclick="audio()" src="media/trailer9.jpg" width="80" height="80"
-                                        title="Trailer 9">
-                                    <div class="labelColumn2">
-                                        <div class="mediaLabel">Trailer 1</div>
-                                        <div class="mediaLabel">Trailer 2</div>
-                                        <div class="mediaLabel">Trailer 3</div>
-                                        <div class="mediaLabel">Trailer 4</div>
-                                        <div class="mediaLabel">Trailer 5</div>
-                                        <div class="mediaLabel">Trailer 6</div>
-                                        <div class="mediaLabel">Trailer 7</div>
-                                        <div class="mediaLabel">Trailer 8</div>
-                                        <div class="mediaLabel">Trailer 9</div>
+                                    </br>
+                                    <div>
+                                        <a>Vacation</a>
                                     </div>
-                                </div>
-                                </br>
-                                <div>
-                                    <a>Movie</a>
-                                </div>
-                                <div class="cover-container ">
-                                    
-                                    <img onclick="audio()" src="media/movie1.jpg" width="80" height="80"
-                                        title="Action_American">
-                                    <img onclick="audio()" src="media/movie2.jpg" width="80" height="80"
-                                        title="Action_Asian">
-                                    <img onclick="audio()" src="media/movie3.jpg" width="80" height="80"
-                                        title="Action_Asian">
-                                    <img onclick="audio()" src="media/movie4.jpg" width="80" height="80"
-                                        title="Romance">
-                                    <img onclick="audio()" src="media/movie7.jpg" width="80" height="80" title="Silent">
-                                    <img onclick="audio()" src="media/movie8.jpg" width="80" height="80" title="Space">
-                                    <img onclick="audio()" src="media/movie5.jpg" width="80" height="80"
-                                        title="Thriller">
-                                    <img onclick="audio()" src="media/movie6.jpg" width="80" height="80"
-                                        title="Vintage">
-                                    
-                                    <div class="labelColumn2">
-                                        <div class="mediaLabel">Action_American</div>
-                                        <div class="mediaLabel">Action_Asian</div>
-                                        <div class="mediaLabel">Action_Asian</div>
-                                        <div class="mediaLabel">Romance</div>
-                                        <div class="mediaLabel">Silent</div>
-                                        <div class="mediaLabel">Space</div>
-                                        <div class="mediaLabel">Thriller</div>
-                                        <div class="mediaLabel">Vintage</div>
-                                        
+                                    <div class="cover-container ">
+
+                                        <img onclick="audio()" src="media/vacation1.jpg" width="80" height="80"
+                                            title="Beach">
+                                        <img onclick="audio()" src="media/vacation6.jpg" width="80" height="80"
+                                            title="Cabin">
+                                        <img onclick="audio()" src="media/vacation4.jpg" width="80" height="80"
+                                            title="Camping">
+                                        <img onclick="audio()" src="media/vacation7.jpg" width="80" height="80"
+                                            title="City">
+                                        <img onclick="audio()" src="media/vacation2.jpg" width="80" height="80"
+                                            title="Cruise">
+                                        <img onclick="audio()" src="media/vacation8.jpg" width="80" height="80"
+                                            title="Monument">
+                                        <img onclick="audio()" src="media/vacation3.jpg" width="80" height="80"
+                                            title="Road Trip">
+                                        <img onclick="audio()" src="media/vacation5.jpg" width="80" height="80"
+                                            title="Resort">
+
+                                        <div class="labelColumn2">
+                                            <div class="mediaLabel">Beach</div>
+                                            <div class="mediaLabel">Cabin</div>
+                                            <div class="mediaLabel">Camping</div>
+                                            <div class="mediaLabel">City</div>
+                                            <div class="mediaLabel">Cruise</div>
+                                            <div class="mediaLabel">Monument</div>
+                                            <div class="mediaLabel">Road Trip</div>
+                                            <div class="mediaLabel">Resort</div>
+                                        </div>
+
+                                    </div>
+                                    </br>
+                                    <div>
+                                        <a>Trailer</a>
+                                    </div>
+                                    <div class="cover-container ">
+                                        <img onclick="audio()" src="media/trailer1.jpg" width="80" height="80"
+                                            title="Trailer 1">
+                                        <img onclick="audio()" src="media/trailer2.jpg" width="80" height="80"
+                                            title="Trailer 2">
+                                        <img onclick="audio()" src="media/trailer3.jpg" width="80" height="80"
+                                            title="Trailer 3">
+                                        <img onclick="audio()" src="media/trailer4.jpg" width="80" height="80"
+                                            title="Trailer 4">
+                                        <img onclick="audio()" src="media/trailer5.jpg" width="80" height="80"
+                                            title="Trailer 5">
+                                        <img onclick="audio()" src="media/trailer6.jpg" width="80" height="80"
+                                            title="Trailer 6">
+                                        <img onclick="audio()" src="media/trailer7.jpg" width="80" height="80"
+                                            title="Trailer 7">
+                                        <img onclick="audio()" src="media/trailer8.jpg" width="80" height="80"
+                                            title="Trailer 8">
+                                        <img onclick="audio()" src="media/trailer9.jpg" width="80" height="80"
+                                            title="Trailer 9">
+                                        <div class="labelColumn2">
+                                            <div class="mediaLabel">Trailer 1</div>
+                                            <div class="mediaLabel">Trailer 2</div>
+                                            <div class="mediaLabel">Trailer 3</div>
+                                            <div class="mediaLabel">Trailer 4</div>
+                                            <div class="mediaLabel">Trailer 5</div>
+                                            <div class="mediaLabel">Trailer 6</div>
+                                            <div class="mediaLabel">Trailer 7</div>
+                                            <div class="mediaLabel">Trailer 8</div>
+                                            <div class="mediaLabel">Trailer 9</div>
+                                        </div>
+                                    </div>
+                                    </br>
+                                    <div>
+                                        <a>Movie</a>
+                                    </div>
+                                    <div class="cover-container ">
+
+                                        <img onclick="audio()" src="media/movie1.jpg" width="80" height="80"
+                                            title="Action_American">
+                                        <img onclick="audio()" src="media/movie2.jpg" width="80" height="80"
+                                            title="Action_Asian">
+                                        <img onclick="audio()" src="media/movie3.jpg" width="80" height="80"
+                                            title="Action_Asian">
+                                        <img onclick="audio()" src="media/movie4.jpg" width="80" height="80"
+                                            title="Romance">
+                                        <img onclick="audio()" src="media/movie7.jpg" width="80" height="80"
+                                            title="Silent">
+                                        <img onclick="audio()" src="media/movie8.jpg" width="80" height="80"
+                                            title="Space">
+                                        <img onclick="audio()" src="media/movie5.jpg" width="80" height="80"
+                                            title="Thriller">
+                                        <img onclick="audio()" src="media/movie6.jpg" width="80" height="80"
+                                            title="Vintage">
+
+                                        <div class="labelColumn2">
+                                            <div class="mediaLabel">Action_American</div>
+                                            <div class="mediaLabel">Action_Asian</div>
+                                            <div class="mediaLabel">Action_Asian</div>
+                                            <div class="mediaLabel">Romance</div>
+                                            <div class="mediaLabel">Silent</div>
+                                            <div class="mediaLabel">Space</div>
+                                            <div class="mediaLabel">Thriller</div>
+                                            <div class="mediaLabel">Vintage</div>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -736,7 +740,7 @@
                                     <a>Adjustments</a>
                                 </div>
                                 <div class="cover-container ">
-                                    
+
                                     <img onclick="adjustment() " src="media/brightness.png " width="50 " height="50 "
                                         title="Brightness">
                                     <img onclick="adjustment() " src="media/color.png " width="50 " height="50 "
@@ -761,7 +765,7 @@
                                         title="Temperature">
                                     <img onclick="adjustment() " src="media/vignette.png " width="50 " height="50 "
                                         title="Vignette">
-                                    
+
                                 </div>
                                 <div class="slidecontainer">
                                     <span>Select Intensity:</span> </br>
@@ -785,7 +789,7 @@
                                     <a>Positioning</a>
                                 </div>
                                 <div class="cover-container ">
-                                    
+
                                     <img onclick="adjustment() " src="media/angle.png " width="50 " height="50 "
                                         title="Angle">
                                     <img onclick="adjustment() " src="media/fixed.png " width="50 " height="50 "
@@ -800,7 +804,7 @@
                                         title="Restore">
                                     <img onclick="adjustment() " src="media/rotate.png " width="50 " height="50 "
                                         title="Rotate">
-                                    
+
                                 </div>
                             </div>
 
@@ -821,7 +825,7 @@
                                     <a>Filters</a>
                                 </div>
                                 <div class="cover-container ">
-                                    
+
                                     <img onclick="component() " src="media/vidbw.png " title="Black and White"
                                         width="85 " height="65 ">
                                     <img onclick="component() " src="media/videocool.png " title="Cool" width="85 "
@@ -836,7 +840,7 @@
                                         height="65 ">
                                     <img onclick="component() " src="media/videowarm.png " title="Warm" width="85 "
                                         height="65 ">
-                                    
+
                                 </div>
                                 </br>
                                 <label for="colorpicker">Select Colour:</label>
@@ -878,7 +882,7 @@
                                     <a>Sounds</a>
                                 </div>
                                 <div class="cover-container ">
-                                    
+
                                     <img onclick="audio()" src="media/bolt.png" width="50" height="50" title="Bolt">
                                     <img onclick="audio()" src="media/bird.jpg" width="50" height="50" title="Bird">
                                     <img onclick="audio()" src="media/car.png" width="50" height="50" title="Car">
@@ -894,7 +898,7 @@
                                         title="Squirrel">
                                     <img onclick="audio()" src="media/tap.png" width="50" height="50" title="Tap">
                                     <img onclick="audio()" src="media/wind.png" width="50" height="50" title="Wind">
-                                    
+
                                 </div>
                                 <div class="slidecontainer">
                                     <span>Select Volume:</span> </br>
@@ -918,7 +922,7 @@
                                     <a>Voice Filters</a>
                                 </div>
                                 <div class="cover-container ">
-                                    
+
                                     <img onclick="audio()" src="media/alien.png" width="50" height="50" title="Alien">
                                     <img onclick="audio()" src="media/anon.png" width="50" height="50" title="Anon">
                                     <img onclick="audio()" src="media/autotune.png" width="50" height="50"
@@ -932,7 +936,7 @@
                                     <img onclick="audio()" src="media/mouse.png" width="50" height="50" title="Mouse">
                                     <img onclick="audio()" src="media/pitch.png" width="50" height="50" title="Pitch">
                                     <img onclick="audio()" src="media/robot.png" width="50" height="50" title="Robot">
-                                    
+
                                 </div>
                                 <div class="slidecontainer">
                                     <span>Select Volume:</span> </br>
@@ -1029,7 +1033,7 @@
                                     <a>Stickers</a>
                                 </div>
                                 <div class="cover-container ">
-                                    
+
                                     <img onclick="component() " src="media/Sticker2.png " width="50 " height="50 "
                                         title="Cat Unicorn">
                                     <img onclick="component() " src="media/Sticker9.png " width="50 " height="50 "
@@ -1050,14 +1054,14 @@
                                         title="Shark">
                                     <img onclick="component() " src="media/Sticker6.png " width="50 " height="50 "
                                         title="Yeet">
-                                    
+
                                 </div>
                                 </br>
                                 <div>
                                     <a>Face Filters</a>
                                 </div>
                                 <div class="cover-container ">
-                                    
+
                                     <img onclick="component() " src="media/FaceFilter5.png " width="50 " height="50 "
                                         title="Butterflies">
                                     <img onclick="component() " src="media/FaceFilter8.png " width="50 " height="50 "
@@ -1078,7 +1082,7 @@
                                         title="Pikachu">
                                     <img onclick="component() " src="media/FaceFilter1.png " width="50 " height="50 "
                                         title="Wings">
-                                    
+
                                 </div>
                                 </br>
                                 <div>
@@ -1226,7 +1230,7 @@
                                     <a>Saved Presets</a>
                                 </div>
                                 <div class="cover-container ">
-                                    
+
                                     <img onclick="preset() " src="media/birpreset.png " width="80 " height="80 "
                                         title="Birthday">
                                     <img onclick="preset() " src="media/bpreset.png " width="80 " height="80 "
@@ -1241,12 +1245,13 @@
                                         title="Night">
                                     <img onclick="preset() " src="media/spreset.png " width="80 " height="80 "
                                         title="Selfie">
-                                    <img onclick="preset() " src="media/tpreset.png " width="80 " height="80 " title="Tiktok">
+                                    <img onclick="preset() " src="media/tpreset.png " width="80 " height="80 "
+                                        title="Tiktok">
                                     <img onclick="preset() " src="media/vpreset.png " width="80 " height="80 "
                                         title="Vacation">
                                     <img onclick="preset() " src="media/wpreset.png " width="80 " height="80 "
                                         title="Warm">
-                                    
+
                                 </div>
                                 </br>
                                 <div class="presetsave">
@@ -1278,15 +1283,20 @@
                 <div class="toolbar">
                     <div class="row">
                         <div class="column">
-                            <img onclick="tool()" src="media/hand.png" width="48" height="48" vspace="5" title="Selection Tool">
-                            <img onclick="tool()" src="media/scissors.png" width="48" height="48" vspace="5" title="Scissors">
+                            <img onclick="tool()" src="media/hand.png" width="48" height="48" vspace="5"
+                                title="Selection Tool">
+                            <img onclick="tool()" src="media/scissors.png" width="48" height="48" vspace="5"
+                                title="Scissors">
                             <img onclick="tool()" src="media/pen.png" width="48" height="48" vspace="5" title="Draw">
                             <img onclick="tool()" src="media/undo.png" width="48" height="48" vspace="5" title="Undo">
                         </div>
                         <div class="column">
-                            <img onclick="tool()" src="media/cursor.png" width="48" height="48" vspace="5" title="Cursor">
-                            <img onclick="tool()" src="media/ripple.png" width="48" height="48" vspace="5" title="Ripple">
-                            <img onclick="tool()" src="media/eraser.png" width="48" height="48" vspace="5" title="Eraser">
+                            <img onclick="tool()" src="media/cursor.png" width="48" height="48" vspace="5"
+                                title="Cursor">
+                            <img onclick="tool()" src="media/ripple.png" width="48" height="48" vspace="5"
+                                title="Ripple">
+                            <img onclick="tool()" src="media/eraser.png" width="48" height="48" vspace="5"
+                                title="Eraser">
                             <img onclick="tool()" src="media/redo.png" width="48" height="48" vspace="5" title="Redo">
                         </div>
                     </div>
